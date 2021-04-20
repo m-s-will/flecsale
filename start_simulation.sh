@@ -1,2 +1,2 @@
 #give the container id as a second argument to this script
-mpiexec --allow-run-as-root -n 2 /home/docker/flecsale_build/apps/maire_hydro/2d/maire_hydro_2d -m /home/docker/flecsale/data/meshes/sedov_32x32.g -ll:csize 9000
+mpiexec --allow-run-as-root -n 2 /home/docker/flecsale_build/bin/hydro_3d -m /home/docker/flecsale//apps/catalyst_adaptor/catalyst_scripts/hydro3d_live.py
